@@ -32,6 +32,7 @@ theme:
     - navigation.expand
     - navigation.instant
     - navigation.top
+    - toc.integrate
     - search.suggest
     - search.highlight
     - content.code.copy
@@ -67,20 +68,36 @@ nav:
       - レーザービーム: assets/laser.md
       - アイテム: assets/item.md
       - パーティクル: assets/particle.md
-  - パネル操作:
+      - ミラー: assets/mirror.md
+      - スクリーン: assets/screen.md
+      - 3Dテキスト: assets/text3d.md
+      - サイリウム: assets/cyalume.md
+  - パネル:
       - パネル一覧: panels/overview.md
       - カメラ操作: panels/camera.md
       - ライト操作: panels/light.md
       - レーザー操作: panels/laser.md
       - トラッキング: panels/tracking.md
-  - 他のパネル:
       - シーンデータコピー: panels/scene-copy.md
       - PixelFixtureライト: panels/pixel-fixture.md
   - ノード:
       - ノードの概要: nodes/overview.md
-      - ノードカテゴリ一覧: nodes/categories.md
+      - Bool: nodes/bool.md
+      - Color: nodes/color.md
+      - Event: nodes/event.md
+      - Expression: nodes/expression.md
+      - Float: nodes/float.md
+      - Flow Control: nodes/flow-control.md
+      - Function: nodes/function.md
+      - Int: nodes/int.md
+      - List: nodes/list.md
+      - Logic: nodes/logic.md
+      - Material: nodes/material.md
+      - OSC: nodes/osc.md
+      - Random: nodes/random.md
   - MODの作り方:
       - MODとは: mod/overview.md
       - MOD作成手順: mod/creating-mod.md
       - SDK ダウンロード: mod/sdk.md
+  - ライセンス: license.md
   - FAQ: faq.md
