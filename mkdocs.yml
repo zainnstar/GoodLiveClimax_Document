@@ -3,7 +3,7 @@ site_description: 個人VTuber向けライブ演出ソフト「GoodLiveClimax」
 site_url: https://zainnstar.github.io/GoodLiveClimax_Document/
 repo_url: https://github.com/zainnstar/GoodLiveClimax_Document
 repo_name: zainnstar/GoodLiveClimax_Document
-copyright: Copyright &copy; 2026 稲峰幸司 Inamine Kosuke - GoodLuckLab
+copyright: Copyright &copy; 2026 稲峰幸助 Inamine Kosuke - GoodLuckLab
 
 theme:
   name: material
@@ -82,19 +82,36 @@ nav:
       - PixelFixtureライト: panels/pixel-fixture.md
   - ノード:
       - ノードの概要: nodes/overview.md
-      - Bool: nodes/bool.md
-      - Color: nodes/color.md
-      - Event: nodes/event.md
-      - Expression: nodes/expression.md
-      - Float: nodes/float.md
-      - Flow Control: nodes/flow-control.md
-      - Function: nodes/function.md
-      - Int: nodes/int.md
-      - List: nodes/list.md
-      - Logic: nodes/logic.md
-      - Material: nodes/material.md
-      - OSC: nodes/osc.md
-      - Random: nodes/random.md
+      - "Bool": nodes/bool.md
+      - "BP制御 (BP Control)": nodes/bp-control.md
+      - "BPM": nodes/bpm.md
+      - "Camera": nodes/camera-node.md
+      - "Expression / Math": nodes/expression.md
+      - "Float": nodes/float.md
+      - "Int": nodes/int.md
+      - "OSC": nodes/osc.md
+      - "Twitch": nodes/twitch.md
+      - "Vector2": nodes/vector2.md
+      - "Vector3": nodes/vector3.md
+      - "YouTube": nodes/youtube.md
+      - "Asset（アセット）": nodes/asset-node.md
+      - "イベント (Event)": nodes/event.md
+      - "カラー (Color)": nodes/color.md
+      - "シーン (Scene)": nodes/scene.md
+      - "テレポート (Teleport)": nodes/teleport.md
+      - "デバッグ (Debug)": nodes/debug.md
+      - "トラッキング (Tracking)": nodes/tracking-node.md
+      - "トランスフォーム (Transform)": nodes/transform-node.md
+      - "パーティクル (Particle)": nodes/particle-node.md
+      - "フロー制御 (Flow Control)": nodes/flow-control.md
+      - "マテリアル (Material)": nodes/material.md
+      - "ユーティリティ (Utility)": nodes/utility.md
+      - "ランダム (Random)": nodes/random.md
+      - "リスト (List)": nodes/list.md
+      - "変換 (Convert)": nodes/convert.md
+      - "文字列 (String)": nodes/string.md
+      - "時間 (Time)": nodes/time.md
+      - "関数 (Function)": nodes/function.md
   - MODの作り方:
       - MODとは: mod/overview.md
       - MOD作成手順: mod/creating-mod.md

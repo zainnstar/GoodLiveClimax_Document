@@ -13,10 +13,8 @@
 
 ## ダウンロード
 
-TODO: 配布ページのリンクをここに記載する。
-
 ```
-GoodLiveClimax_vX.X.X.zip
+Boothページ
 ```
 
 ---
@@ -27,28 +25,11 @@ GoodLiveClimax_vX.X.X.zip
 
 ダウンロードしたZIPファイルを任意のフォルダに展開してください。
 
-!!! warning "注意"
-パスに日本語・スペースが含まれるフォルダへの展開は推奨しません。  
- 例: `C:\Tools\GoodLiveClimax\` のような英数字のみのパスを使用してください。
-
 ---
 
 ### 2. 起動する
 
 展開したフォルダ内の `GoodLiveClimax.exe` をダブルクリックして起動します。
-
----
-
-### 3. Chataigneのセットアップ（オプション）
-
-タイムライン連動機能を使用する場合は、別途 [Chataigne](https://benjamin.kuperberg.fr/chataigne/en) のインストールが必要です。
-
-OSC通信ポートのデフォルト設定:
-
-| 方向                  | ポート |
-| --------------------- | ------ |
-| GoodLiveClimax → 受信 | 9000   |
-| GoodLiveClimax → 送信 | 9001   |
 
 ---
 

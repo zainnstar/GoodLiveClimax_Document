@@ -1,72 +1,35 @@
-# Float ノード
+# Float
 
-浮動小数点数（float型）の演算ノード群です。
+float型（浮動小数点数）の演算ノードの全一覧です。
 
 ---
 
 ## ノード一覧
 
-### Add / Subtract / Multiply / Divide
-
-基本四則演算です。
-
-| ピン   | 方向 | 型    | 説明     |
-| ------ | ---- | ----- | -------- |
-| A      | 入力 | float | 左辺     |
-| B      | 入力 | float | 右辺     |
-| Result | 出力 | float | 演算結果 |
-
-### Greater (float)
-
-A > B なら `true` を出力します。
-
-| ピン   | 方向 | 型    | 説明            |
-| ------ | ---- | ----- | --------------- |
-| A      | 入力 | float | 比較対象A       |
-| B      | 入力 | float | 比較対象B       |
-| Result | 出力 | bool  | A > B なら true |
-
-### Less (float)
-
-A < B なら `true` を出力します。
-
-### Clamp (float)
-
-値を最小・最大範囲内に収めます。
-
-| ピン   | 方向 | 型    | 説明             |
-| ------ | ---- | ----- | ---------------- |
-| Value  | 入力 | float | クランプする値   |
-| Min    | 入力 | float | 最小値           |
-| Max    | 入力 | float | 最大値           |
-| Result | 出力 | float | クランプされた値 |
-
-### Lerp (float)
-
-2つのfloat値を線形補間します。
-
-| ピン   | 方向 | 型    | 説明            |
-| ------ | ---- | ----- | --------------- |
-| A      | 入力 | float | 開始値          |
-| B      | 入力 | float | 終了値          |
-| T      | 入力 | float | 補間係数 (0〜1) |
-| Result | 出力 | float | 補間された値    |
-
-### Abs / Ceil / Floor / Round
-
-絶対値・切り上げ・切り捨て・四捨五入。
-
-### Sin / Cos / Tan
-
-三角関数ノード（ラジアン入力）。
-
-### Float Literal
-
-固定のfloat値を出力します。エディタ上で値を直接入力します。
-
-### Float → Int / Float → String
-
-float値を他の型に変換します。
-
-!!! note
-この章は作成中です。詳細は追って追記されます。
+| 英語名            | 日本語名           | 説明                              |
+| ----------------- | ------------------ | --------------------------------- |
+| Get BP Float      | BP Floatを取得     | BP変数（Float型）の値を読み取る   |
+| Set BP Float      | BP Floatを設定     | BP変数（Float型）に値を書き込む   |
+| Float             | Float              | 固定の float 値を出力するリテラル |
+| Float Add         | Float Add          | A + B                             |
+| Float Atan2       | Float Atan2        | atan2(A, B)（ラジアン）           |
+| Float Divide      | Float Divide       | A ÷ B                             |
+| Float Max         | Float Max          | A, B のうち大きい方               |
+| Float Min         | Float Min          | A, B のうち小さい方               |
+| Float Multiply    | Float Multiply     | A × B                             |
+| Float Power       | Float Power        | A の B 乗                         |
+| Float Subtract    | Float Subtract     | A − B                             |
+| Float Clamp       | float Clamp        | 最小値〜最大値の範囲に収める      |
+| Float PI          | float PI           | 円周率（約 3.14159）を出力        |
+| Float Cosine      | float コサイン     | コサイン（ラジアン入力）          |
+| Float Sine        | float サイン       | サイン（ラジアン入力）            |
+| Float Smooth Damp | float スムーズ減衰 | スムーズな減衰値を計算            |
+| Float Random      | float 乱数         | 0〜1 のランダムな float 値        |
+| Float Ceil        | float 切り上げ     | 小数点以下を切り上げ              |
+| Float Floor       | float 切り捨て     | 小数点以下を切り捨て              |
+| Float Negate      | float 反転         | 符号を反転                        |
+| Float Round       | float 四捨五入     | 四捨五入                          |
+| Float Sqrt        | float 平方根       | 平方根                            |
+| Float Remap       | float 範囲変換     | 入力範囲を出力範囲にリマップ      |
+| Float Abs         | float 絶対値       | 絶対値を返す                      |
+| Float Lerp        | float 補間         | A と B を T（0〜1）で線形補間     |

@@ -18,33 +18,6 @@ GoodLiveClimax MOD作成用のSDKは、GitHubのReleasesページから入手で
 
 ---
 
-## SDKに含まれるファイル
-
-| ファイル                        | 役割                          |
-| ------------------------------- | ----------------------------- |
-| `ModMetaData.cs`                | MODのメタデータ定義           |
-| `ModExportBuilder.cs`           | アセットバンドルビルド処理    |
-| `ModExportEditor.cs`            | Unityエディタ上のUIウィンドウ |
-| `ModExportAssetDropField.cs`    | アセットドロップフィールドUI  |
-| `ModExportLocalization.cs`      | ローカライズテキスト          |
-| `ModMetadataCache.cs`           | メタデータキャッシュ          |
-| `ModExportPublicKeyProvider.cs` | 公開鍵プロバイダ（暗号化用）  |
-| `ModCmxmodCrypto.cs`            | 暗号化処理                    |
-
----
-
-## SDKに含まれないもの（意図的な除外）
-
-以下はSDKには含まれておらず、開発者側のみが保有します。
-
-- `AvatarModCrypto.dll` — 復元用DLL
-- 開発者専用の復元パスワード
-- 内部秘密鍵を含むファイル
-
-これはMODの改ざんを防ぐための設計です。SDKで作れるのは「暗号化されたMODパッケージ」だけです。
-
----
-
 ## バージョン履歴
 
 | バージョン | 内容               |
@@ -54,5 +27,5 @@ GoodLiveClimax MOD作成用のSDKは、GitHubのReleasesページから入手で
 ---
 
 !!! note "Boothでも配布予定"
-GoodLiveClimax本体はBoothでの販売を予定しています。  
- SDKはGitHubから無償で配布する予定です。
+GoodLiveClimax本体はBoothでの販売中
+SDKはGitHubから無償で配布します
