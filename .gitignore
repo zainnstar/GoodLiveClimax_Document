@@ -24,3 +24,8 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Developer-only: not for public docs
+dev_guide/
+docs/img/
+Icon/

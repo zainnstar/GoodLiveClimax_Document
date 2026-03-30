@@ -3,10 +3,13 @@ site_description: 個人VTuber向けライブ演出ソフト「GoodLiveClimax」
 site_url: https://zainnstar.github.io/GoodLiveClimax_Document/
 repo_url: https://github.com/zainnstar/GoodLiveClimax_Document
 repo_name: zainnstar/GoodLiveClimax_Document
+copyright: Copyright &copy; 2026 稲峰幸司 Inamine Kosuke - GoodLuckLab
 
 theme:
   name: material
   language: ja
+  logo: img/GLClimax_Icon.png
+  favicon: img/GLClimax_Icon.png
   palette:
     # ライトモード
     - scheme: default
@@ -27,11 +30,11 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
+    - navigation.instant
     - navigation.top
     - search.suggest
     - search.highlight
     - content.code.copy
-    - toc.integrate
   icon:
     repo: fontawesome/brands/github
 
@@ -56,10 +59,28 @@ nav:
   - はじめに: index.md
   - インストール: installation.md
   - クイックスタート: getting-started.md
+  - アセット:
+      - アセット一覧: assets/overview.md
+      - アバター: assets/avatar.md
+      - カメラ: assets/camera.md
+      - ライト: assets/light.md
+      - レーザービーム: assets/laser.md
+      - アイテム: assets/item.md
+      - パーティクル: assets/particle.md
   - パネル操作:
       - パネル一覧: panels/overview.md
       - カメラ操作: panels/camera.md
       - ライト操作: panels/light.md
       - レーザー操作: panels/laser.md
       - トラッキング: panels/tracking.md
+  - 他のパネル:
+      - シーンデータコピー: panels/scene-copy.md
+      - PixelFixtureライト: panels/pixel-fixture.md
+  - ノード:
+      - ノードの概要: nodes/overview.md
+      - ノードカテゴリ一覧: nodes/categories.md
+  - MODの作り方:
+      - MODとは: mod/overview.md
+      - MOD作成手順: mod/creating-mod.md
+      - SDK ダウンロード: mod/sdk.md
   - FAQ: faq.md
