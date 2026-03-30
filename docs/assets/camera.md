@@ -15,14 +15,14 @@
 
 各カメラの映像をリアルタイムでOBSなどの外部ソフトに送信できます。
 
-| 設定 | 説明 |
-|------|------|
-| Spout2送信 | ON/OFFを切り替え |
-| Spout名 | `AvatarSystem Camera + カメラ名` で自動設定 |
+| 設定       | 説明                                        |
+| ---------- | ------------------------------------------- |
+| Spout2送信 | ON/OFFを切り替え                            |
+| Spout名    | `AvatarSystem Camera + カメラ名` で自動設定 |
 
 !!! info "OBSでの受信方法"
-    OBSで映像を受け取るには [obs-spout2-plugin](https://github.com/Off-World-Live/obs-spout2-plugin) が必要です。  
-    OBSのソース追加から「Spout2 Capture」を選んでSpout名を合わせてください。
+OBSで映像を受け取るには [obs-spout2-plugin](https://github.com/Off-World-Live/obs-spout2-plugin) が必要です。  
+ OBSのソース追加から「Spout2 Capture」を選んでSpout名を合わせてください。
 
 ---
 

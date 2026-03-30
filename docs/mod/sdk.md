@@ -10,9 +10,9 @@ GoodLiveClimax MOD作成用のSDKは、GitHubのReleasesページから入手で
 
 - **MOD SDK**
 
-    最新版のMOD SDKはGitHubのReleasesページからダウンロードしてください。
+  最新版のMOD SDKはGitHubのReleasesページからダウンロードしてください。
 
-    [GitHubのReleasesページへ :octicons-arrow-right-24:](https://github.com/zainnstar/GoodLiveClimax_Document/releases/latest){ .md-button .md-button--primary }
+  [GitHubのReleasesページへ :octicons-arrow-right-24:](https://github.com/zainnstar/GoodLiveClimax_Document/releases/latest){ .md-button .md-button--primary }
 
 </div>
 
@@ -20,16 +20,16 @@ GoodLiveClimax MOD作成用のSDKは、GitHubのReleasesページから入手で
 
 ## SDKに含まれるファイル
 
-| ファイル | 役割 |
-|----------|------|
-| `ModMetaData.cs` | MODのメタデータ定義 |
-| `ModExportBuilder.cs` | アセットバンドルビルド処理 |
-| `ModExportEditor.cs` | Unityエディタ上のUIウィンドウ |
-| `ModExportAssetDropField.cs` | アセットドロップフィールドUI |
-| `ModExportLocalization.cs` | ローカライズテキスト |
-| `ModMetadataCache.cs` | メタデータキャッシュ |
-| `ModExportPublicKeyProvider.cs` | 公開鍵プロバイダ（暗号化用） |
-| `ModCmxmodCrypto.cs` | 暗号化処理 |
+| ファイル                        | 役割                          |
+| ------------------------------- | ----------------------------- |
+| `ModMetaData.cs`                | MODのメタデータ定義           |
+| `ModExportBuilder.cs`           | アセットバンドルビルド処理    |
+| `ModExportEditor.cs`            | Unityエディタ上のUIウィンドウ |
+| `ModExportAssetDropField.cs`    | アセットドロップフィールドUI  |
+| `ModExportLocalization.cs`      | ローカライズテキスト          |
+| `ModMetadataCache.cs`           | メタデータキャッシュ          |
+| `ModExportPublicKeyProvider.cs` | 公開鍵プロバイダ（暗号化用）  |
+| `ModCmxmodCrypto.cs`            | 暗号化処理                    |
 
 ---
 
@@ -47,12 +47,12 @@ GoodLiveClimax MOD作成用のSDKは、GitHubのReleasesページから入手で
 
 ## バージョン履歴
 
-| バージョン | 内容 |
-|-----------|------|
-| 準備中 | 初回リリース準備中 |
+| バージョン | 内容               |
+| ---------- | ------------------ |
+| 準備中     | 初回リリース準備中 |
 
 ---
 
 !!! note "Boothでも配布予定"
-    GoodLiveClimax本体はBoothでの販売を予定しています。  
-    SDKはGitHubから無償で配布する予定です。
+GoodLiveClimax本体はBoothでの販売を予定しています。  
+ SDKはGitHubから無償で配布する予定です。
