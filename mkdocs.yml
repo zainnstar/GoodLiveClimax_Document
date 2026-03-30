@@ -1,0 +1,65 @@
+site_name: GoodLiveClimax ドキュメント
+site_description: 個人VTuber向けライブ演出ソフト「GoodLiveClimax」の公式ドキュメント
+site_url: https://zainnstar.github.io/GoodLiveClimax_Document/
+repo_url: https://github.com/zainnstar/GoodLiveClimax_Document
+repo_name: zainnstar/GoodLiveClimax_Document
+
+theme:
+  name: material
+  language: ja
+  palette:
+    # ライトモード
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: ダークモードに切り替え
+    # ダークモード
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: ライトモードに切り替え
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.integrate
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang: ja
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - attr_list
+  - md_in_html
+  - tables
+
+nav:
+  - はじめに: index.md
+  - インストール: installation.md
+  - クイックスタート: getting-started.md
+  - パネル操作:
+      - パネル一覧: panels/overview.md
+      - カメラ操作: panels/camera.md
+      - ライト操作: panels/light.md
+      - レーザー操作: panels/laser.md
+      - トラッキング: panels/tracking.md
+  - FAQ: faq.md
