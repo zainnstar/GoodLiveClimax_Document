@@ -7,12 +7,30 @@ GoodLiveClimaxのUIは機能ごとのパネルで構成されています。
 
 ## パネル一覧
 
-| パネル                      | 概要                                               |
-| --------------------------- | -------------------------------------------------- |
-| [カメラ操作](camera.md)     | カメラアセットの管理・Spout2送信・自動カメラワーク |
-| [ライト操作](light.md)      | ライトグループ管理・色・強さのコントロール         |
-| [レーザー操作](laser.md)    | レーザーエフェクトの制御                           |
-| [トラッキング](tracking.md) | MediaPipeによるボディトラッキング設定              |
+| パネル                                                      | 概要                                               |
+| ----------------------------------------------------------- | -------------------------------------------------- |
+| [環境設定](environment-settings.md)                         | 全体設定・表示補助のまとめ                         |
+| [接続](connection.md)                                       | Unityや外部機器との接続管理                        |
+| [配信連携](distribution-link.md)                            | 配信ソフトや外部連携の入口                         |
+| [BPM](bpm.md)                                               | テンポ基準の制御パネル                             |
+| [アセット](asset.md)                                        | アセットの追加・一覧操作                           |
+| [インスペクター](inspector.md)                              | 個別パラメータの編集窓口                           |
+| [履歴](history.md)                                          | 操作ログと変更履歴の確認                           |
+| [カメラ操作](camera.md)                                     | カメラアセットの管理・Spout2送信・自動カメラワーク |
+| [ライト操作](light.md)                                      | ライトグループ管理・色・強さのコントロール         |
+| [レーザー操作](laser.md)                                    | レーザーエフェクトの制御                           |
+| [トラッキング](tracking.md)                                 | MediaPipeによるボディトラッキング設定              |
+| [Pixel Fixtureライト操作](pixel-fixture.md)                 | Pixel Fixture系アセットの管理                      |
+| [Pixel Fixture Light操作](pixel-fixture-light-operation.md) | Pixel Fixture Light専用操作                        |
+| [VolumeLightOp](volume-light-op.md)                         | VolumeLight系の制御窓口                            |
+| [ランタイムライト管理](runtime-light-management.md)         | 実行中のライト差し替え・制御                       |
+| [スクリーンショット](screenshot.md)                         | 画面キャプチャ操作                                 |
+| [ボタンパネル](button-panel.md)                             | ワンショット操作の集約                             |
+| [ログ](log.md)                                              | 通知・デバッグログの確認                           |
+| [シーン整合性](scene-integrity.md)                          | 参照切れや状態差分の確認                           |
+| [ノードエディター](node-editor.md)                          | ノードの編集・配置                                 |
+| [シーンデータコピー](scene-copy.md)                         | シーン情報の複製・移送                             |
+| [コラボ](collab.md)                                         | 複数人作業向けの連携窓口                           |
 
 ---
 

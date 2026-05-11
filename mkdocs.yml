@@ -64,22 +64,58 @@ nav:
       - アセット一覧: assets/overview.md
       - アバター: assets/avatar.md
       - カメラ: assets/camera.md
+      - オーディオプレイヤー: assets/audio-player.md
+      - オーディオリアクティブ: assets/audio-reactive.md
+      - ポストプロセス: assets/post-process.md
+      - オーシャン: assets/ocean.md
+      - MediaPipe トラッカー: assets/mediapipe-tracker.md
+      - VMC トラッカー: assets/vmc-tracker.md
+      - Collab Tracker: assets/collab-tracker.md
       - ライト: assets/light.md
+      - ボリュームマトリクスディレクショナルライト: assets/volume-matrix-directional-light.md
+      - ポイントライト: assets/point-light.md
+      - ボリュームライト: assets/volume-light.md
       - レーザービーム: assets/laser.md
+      - Add Shader: assets/add-shader.md
+      - Avatar Moving: assets/avatar-moving.md
+      - モーションレコーダー: assets/motion-recorder.md
       - アイテム: assets/item.md
+      - FBX: assets/fbx.md
+      - 3Dテキスト: assets/text3d.md
       - パーティクル: assets/particle.md
       - ミラー: assets/mirror.md
       - スクリーン: assets/screen.md
-      - 3Dテキスト: assets/text3d.md
       - サイリウム: assets/cyalume.md
+      - ピクセルライト: assets/pixel-light.md
+      - Pixel Fixture Light: assets/pixel-fixture-light.md
+      - トリガー: assets/trigger.md
+      - トランスフォームモーション: assets/transform-motion.md
+      - ハイトフォグ: assets/heat-fog.md
+      - ワールド: assets/world.md
   - パネル:
       - パネル一覧: panels/overview.md
+      - 環境設定: panels/environment-settings.md
+      - 接続: panels/connection.md
+      - 配信連携: panels/distribution-link.md
+      - BPM: panels/bpm.md
+      - アセット: panels/asset.md
+      - インスペクター: panels/inspector.md
+      - 履歴: panels/history.md
       - カメラ操作: panels/camera.md
       - ライト操作: panels/light.md
       - レーザー操作: panels/laser.md
       - トラッキング: panels/tracking.md
+      - Pixel Fixtureライト操作: panels/pixel-fixture.md
+      - Pixel Fixture Light操作: panels/pixel-fixture-light-operation.md
+      - VolumeLightOp: panels/volume-light-op.md
+      - ランタイムライト管理: panels/runtime-light-management.md
+      - スクリーンショット: panels/screenshot.md
+      - ボタンパネル: panels/button-panel.md
+      - ログ: panels/log.md
+      - シーン整合性: panels/scene-integrity.md
+      - ノードエディター: panels/node-editor.md
       - シーンデータコピー: panels/scene-copy.md
-      - PixelFixtureライト: panels/pixel-fixture.md
+      - コラボ: panels/collab.md
   - ノード:
       - ノードの概要: nodes/overview.md
       - "Bool": nodes/bool.md
