@@ -4,18 +4,17 @@
 
 ---
 
-## ノード一覧
-
-| 英語名          | 日本語名           | 説明                                       |
-| --------------- | ------------------ | ------------------------------------------ |
-| String Literal  | 文字列リテラル     | 固定の文字列値を出力する                   |
-| Get BP String   | BP String 取得     | BP 変数（String 型）の値を読み取る         |
-| Set BP String   | BP String 設定     | BP 変数（String 型）に値を書き込む         |
-| Append String   | 文字列連結         | 2 つの文字列を連結する                     |
-| String Format   | 文字列フォーマット | テンプレート文字列に値を埋め込んで生成する |
-| String Length   | 文字列長           | 文字列の文字数を返す                       |
-| String Contains | 文字列に含む       | 指定の部分文字列が含まれるか確認する       |
-| String Split    | 文字列分割         | 区切り文字で文字列を分割してリストにする   |
-| String Replace  | 文字列置換         | 指定の部分文字列を別の文字列に置換する     |
-| To Upper Case   | 大文字変換         | 文字列を大文字に変換する                   |
-| To Lower Case   | 小文字変換         | 文字列を小文字に変換する                   |
+| 英語名            | 日本語名         | 説明                         |
+| ----------------- | ---------------- | ---------------------------- |
+| Get BP String     | BP文字列を取得   | BP 文字列を取得する          |
+| Set BP String     | BP文字列を設定   | BP 文字列を設定する          |
+| To Upper Case     | 大文字化         | 文字列を大文字化する         |
+| To Lower Case     | 小文字化         | 文字列を小文字化する         |
+| String            | 文字列           | 文字列リテラル               |
+| Split String      | 文字列を分割     | 文字列を分割する             |
+| String Contains   | 文字列を含む     | 文字列に含まれるかを判定する |
+| Format String     | 文字列を整形     | 文字列を整形する             |
+| Replace String    | 文字列を置換     | 文字列を置換する             |
+| Append String     | 文字列を連結     | 文字列を連結する             |
+| Get String Length | 文字列長を取得   | 文字列の長さを取得する       |
+| Substring         | 部分文字列を取得 | 部分文字列を取得する         |

@@ -4,12 +4,11 @@
 
 ---
 
-## ノード一覧
-
-| 英語名              | 日本語名             | 説明                                       |
-| ------------------- | -------------------- | ------------------------------------------ |
-| Switch Camera       | カメラ切り替え       | アクティブカメラを指定のカメラに切り替える |
-| Camera Transition   | カメラトランジション | 指定秒数でカメラをブレンド遷移する         |
-| Set Camera FOV      | カメラ FOV 設定      | 視野角（Field of View）を変更する          |
-| Set Camera Position | カメラ位置設定       | カメラの位置を設定する                     |
-| Get Active Camera   | アクティブカメラ取得 | 現在アクティブなカメラの参照を返す         |
+| 英語名                      | 日本語名                       | 説明                             |
+| --------------------------- | ------------------------------ | -------------------------------- |
+| CameraOp Stop               | CameraOp 停止                  | CameraOp を停止する              |
+| On CameraOp Completed       | CameraOp 完了時                | CameraOp 完了時に実行            |
+| CameraOp Start              | CameraOp 開始                  | CameraOp を開始する              |
+| Select Camera Group         | カメラグループ選択             | 操作対象のカメラグループを選択   |
+| Edit Camera Motion Preset   | カメラモーションプリセット編集 | カメラモーションプリセットを編集 |
+| Select Camera Motion Preset | カメラモーションプリセット選択 | カメラモーションプリセットを選択 |

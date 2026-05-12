@@ -1,119 +1,43 @@
 # ノードカテゴリ一覧
 
-利用可能なノードをカテゴリ別に説明します。
+利用可能なノードをカテゴリ別のページに整理しています。
 
----
-
-## Bool
-
-| ノード     | 説明                                             |
-| ---------- | ------------------------------------------------ |
-| Bool Input | bool値を手動で入力するノード。bool入力ピンも持つ |
-
----
-
-## Color
-
-色の生成・変換に関するノードです。
-
----
-
-## Event
-
-イベントをトリガーとして受け取るノードです。OSCイベントやシステムイベントに反応して実行フローを開始できます。
-
----
-
-## Expression
-
-数式や文字列操作を行うノードです。
-
----
-
-## Float
-
-| ノード           | 説明                                     |
-| ---------------- | ---------------------------------------- |
-| Greater (float)  | 2つのfloatを比較して大小を判定、bool出力 |
-| その他算術ノード | 加減乗除など                             |
-
----
-
-## Flow Control
-
-実行フローの分岐・繰り返しを制御するノードです。
-
-| ノード                        | 説明                                                                            |
-| ----------------------------- | ------------------------------------------------------------------------------- |
-| Counter                       | カウント値をインクリメント。入力フローが上、Resetが下                           |
-| Do N                          | N回だけ実行フローを通す。入力フローが上、Resetが下                              |
-| Flip Flop                     | 交互にA/Bの出力を切り替え。bool出力（A=true, B=false）とint出力（A=0, B=1）あり |
-| Sequence                      | 接続した出力フローを順番に実行。出力フロー数はノード上で増減可能                |
-| Switch (float / int / string) | 入力値に応じて出力先を振り分け。各型の入力フィールドあり                        |
-
----
-
-## Function
-
-処理を関数として定義・再利用するノードです。
-
-### Function Definition
-
-関数を定義するノード。
-
-| 設定   | 説明                                                                   |
-| ------ | ---------------------------------------------------------------------- |
-| 関数名 | 文字列フィールドで指定。BP横断で参照可能                               |
-| 変数   | bool / int / float / string / vector2 / vector3 / color から動的に追加 |
-| 戻り値 | 現バージョンでは未対応（将来対応予定）                                 |
-
-### Function Call
-
-定義した関数を呼び出すノード。
-
-- ドロップダウンリストから呼び出す関数を選択
-- 関数の変数に応じて入力ピンが動的に追加される
-- ノード内フィールドで直接値を入力することも可能
-- BPをまたいで呼び出し可能
-
----
-
-## Int
-
-| ノード           | 説明                                   |
-| ---------------- | -------------------------------------- |
-| Greater (int)    | 2つのintを比較して大小を判定、bool出力 |
-| その他算術ノード | 加減乗除など                           |
-
----
-
-## List
-
-リスト操作に関するノードです。
-
----
-
-## Logic
-
-比較・論理演算ノードです。出力はboolになります（Boolカテゴリに統合済み）。
-
----
-
-## Material
-
-マテリアルパラメータを操作するノードです。アバターやアイテムのシェーダー値をリアルタイムで変更できます。
-
----
-
-## OSC
-
-OSCメッセージを送受信するノードです。Chataigneや外部ソフトとの連携に使用します。
-
----
-
-## Random
-
-| ノード               | 説明                                             |
-| -------------------- | ------------------------------------------------ |
-| No-Repeat Random Int | 直前と同じ値が出ないランダムint。resultピンはint |
-| Weight Random        | 重み付きランダム選択                             |
+- [Bool](bool.md)
+- [BP制御](bp-control.md)
+- [BPM](bpm.md)
+- [Float](float.md)
+- [Int](int.md)
+- [Light](light.md)
+- [OSC](osc.md)
+- [Pixel Fixture Light 操作](pixel-fixture-light-op.md)
+- [Twitch](twitch.md)
+- [Vector2](vector2.md)
+- [Vector3](vector3.md)
+- [VolumeLightOp](volumelightop.md)
+- [WebSocket](websocket.md)
+- [YouTube](youtube.md)
+- [Asset](asset-node.md)
+- [アニメーション](animation-node.md)
+- [イベント](event.md)
+- [カメラ操作](camera-node.md)
+- [カラー](color.md)
+- [コラボ](collab.md)
+- [シーン](scene.md)
+- [テレポート](teleport.md)
+- [デバッグ](debug.md)
+- [トラッキング](tracking-node.md)
+- [トランスフォーム](transform-node.md)
+- [パーティクル](particle-node.md)
+- [フロー制御](flow-control.md)
+- [マテリアル](material.md)
+- [ユーティリティ](utility.md)
+- [ランダム](random.md)
+- [リスト](list.md)
+- [レーザー操作](laser-operation.md)
+- [変換](convert.md)
+- [文字列](string.md)
+- [時間](time.md)
+- [遅延](delay.md)
+- [関数](function.md)
+- [Expression](expression.md)
+- [Logic](logic.md)

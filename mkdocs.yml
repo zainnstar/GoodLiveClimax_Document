@@ -1,8 +1,6 @@
 site_name: GoodLiveClimax ドキュメント
 site_description: 個人VTuber向けライブ演出ソフト「GoodLiveClimax」の公式ドキュメント
 site_url: https://zainnstar.github.io/GoodLiveClimax_Document/
-repo_url: https://github.com/zainnstar/GoodLiveClimax_Document
-repo_name: zainnstar/GoodLiveClimax_Document
 copyright: Copyright &copy; 2026 稲峰幸助 Inamine Kosuke - GoodLuckLab
 
 theme:
@@ -36,8 +34,6 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
-  icon:
-    repo: fontawesome/brands/github
 
 plugins:
   - search:
@@ -62,29 +58,30 @@ nav:
   - クイックスタート: getting-started.md
   - アセット:
       - アセット一覧: assets/overview.md
-      - アバター: assets/avatar.md
       - カメラ: assets/camera.md
+      - スクリーン: assets/screen.md
       - オーディオプレイヤー: assets/audio-player.md
       - オーディオリアクティブ: assets/audio-reactive.md
       - ポストプロセス: assets/post-process.md
       - オーシャン: assets/ocean.md
+      - アバター: assets/avatar.md
       - MediaPipe トラッカー: assets/mediapipe-tracker.md
       - VMC トラッカー: assets/vmc-tracker.md
       - Collab Tracker: assets/collab-tracker.md
-      - ライト: assets/light.md
-      - ボリュームマトリクスディレクショナルライト: assets/volume-matrix-directional-light.md
+      - ディレクショナルライト: assets/directional-light.md
+      - ボリューメトリックディレクショナルライト: assets/volume-matrix-directional-light.md
       - ポイントライト: assets/point-light.md
       - ボリュームライト: assets/volume-light.md
       - レーザービーム: assets/laser.md
       - Add Shader: assets/add-shader.md
       - Avatar Moving: assets/avatar-moving.md
       - モーションレコーダー: assets/motion-recorder.md
+      - ミラー: assets/mirror.md
+      - 風: assets/wind.md
       - アイテム: assets/item.md
       - FBX: assets/fbx.md
       - 3Dテキスト: assets/text3d.md
-      - パーティクル: assets/particle.md
-      - ミラー: assets/mirror.md
-      - スクリーン: assets/screen.md
+      - パーティクルシステム: assets/particle.md
       - サイリウム: assets/cyalume.md
       - ピクセルライト: assets/pixel-light.md
       - Pixel Fixture Light: assets/pixel-fixture-light.md
@@ -94,6 +91,7 @@ nav:
       - ワールド: assets/world.md
   - パネル:
       - パネル一覧: panels/overview.md
+      - トラッキング: panels/tracking.md
       - 環境設定: panels/environment-settings.md
       - 接続: panels/connection.md
       - 配信連携: panels/distribution-link.md
@@ -101,15 +99,12 @@ nav:
       - アセット: panels/asset.md
       - インスペクター: panels/inspector.md
       - 履歴: panels/history.md
-      - カメラ操作: panels/camera.md
-      - ライト操作: panels/light.md
-      - レーザー操作: panels/laser.md
-      - トラッキング: panels/tracking.md
-      - Pixel Fixtureライト操作: panels/pixel-fixture.md
       - Pixel Fixture Light操作: panels/pixel-fixture-light-operation.md
       - VolumeLightOp: panels/volume-light-op.md
       - ランタイムライト管理: panels/runtime-light-management.md
+      - レーザー操作: panels/laser.md
       - スクリーンショット: panels/screenshot.md
+      - カメラ操作: panels/camera.md
       - ボタンパネル: panels/button-panel.md
       - ログ: panels/log.md
       - シーン整合性: panels/scene-integrity.md
@@ -118,36 +113,43 @@ nav:
       - コラボ: panels/collab.md
   - ノード:
       - ノードの概要: nodes/overview.md
-      - "Bool": nodes/bool.md
-      - "BP制御 (BP Control)": nodes/bp-control.md
-      - "BPM": nodes/bpm.md
-      - "Camera": nodes/camera-node.md
-      - "Expression / Math": nodes/expression.md
-      - "Float": nodes/float.md
-      - "Int": nodes/int.md
-      - "OSC": nodes/osc.md
-      - "Twitch": nodes/twitch.md
-      - "Vector2": nodes/vector2.md
-      - "Vector3": nodes/vector3.md
-      - "YouTube": nodes/youtube.md
-      - "Asset（アセット）": nodes/asset-node.md
-      - "イベント (Event)": nodes/event.md
-      - "カラー (Color)": nodes/color.md
-      - "シーン (Scene)": nodes/scene.md
-      - "テレポート (Teleport)": nodes/teleport.md
-      - "デバッグ (Debug)": nodes/debug.md
-      - "トラッキング (Tracking)": nodes/tracking-node.md
-      - "トランスフォーム (Transform)": nodes/transform-node.md
-      - "パーティクル (Particle)": nodes/particle-node.md
-      - "フロー制御 (Flow Control)": nodes/flow-control.md
-      - "マテリアル (Material)": nodes/material.md
-      - "ユーティリティ (Utility)": nodes/utility.md
-      - "ランダム (Random)": nodes/random.md
-      - "リスト (List)": nodes/list.md
-      - "変換 (Convert)": nodes/convert.md
-      - "文字列 (String)": nodes/string.md
-      - "時間 (Time)": nodes/time.md
-      - "関数 (Function)": nodes/function.md
+      - Bool: nodes/bool.md
+      - BP制御: nodes/bp-control.md
+      - BPM: nodes/bpm.md
+      - Float: nodes/float.md
+      - Int: nodes/int.md
+      - Light: nodes/light.md
+      - OSC: nodes/osc.md
+      - Pixel Fixture Light 操作: nodes/pixel-fixture-light-op.md
+      - Twitch: nodes/twitch.md
+      - Vector2: nodes/vector2.md
+      - Vector3: nodes/vector3.md
+      - VolumeLightOp: nodes/volumelightop.md
+      - WebSocket: nodes/websocket.md
+      - YouTube: nodes/youtube.md
+      - アセット: nodes/asset-node.md
+      - アニメーション: nodes/animation-node.md
+      - イベント: nodes/event.md
+      - カメラ操作: nodes/camera-node.md
+      - カラー: nodes/color.md
+      - コラボ: nodes/collab.md
+      - シーン: nodes/scene.md
+      - テレポート: nodes/teleport.md
+      - デバッグ: nodes/debug.md
+      - トラッキング: nodes/tracking-node.md
+      - トランスフォーム: nodes/transform-node.md
+      - パーティクル: nodes/particle-node.md
+      - フロー制御: nodes/flow-control.md
+      - マテリアル: nodes/material.md
+      - ユーティリティ: nodes/utility.md
+      - ランダム: nodes/random.md
+      - リスト: nodes/list.md
+      - レーザー操作: nodes/laser-operation.md
+      - 変換: nodes/convert.md
+      - 文字列: nodes/string.md
+      - 時間: nodes/time.md
+      - 遅延: nodes/delay.md
+      - 関数: nodes/function.md
   - MODの作り方:
       - MODとは: mod/overview.md
       - MOD作成手順: mod/creating-mod.md

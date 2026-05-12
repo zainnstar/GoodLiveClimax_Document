@@ -11,21 +11,6 @@
     - GPUがDirectX 11以上に対応しているか確認する
     - `GoodLiveClimax.exe` と同フォルダのログファイルでエラーを確認する
 
-??? question "パスに日本語が含まれているとエラーになる"
-英数字のみのパスに移動してください。  
- 例: `C:\Tools\GoodLiveClimax\`
-
----
-
-## 映像出力・Spout2
-
-??? question "OBSにSpout2映像が届かない"
-以下を確認してください。
-
-    1. カメラ操作パネルで **Spout2送信がON** になっているか
-    2. OBSに [obs-spout2-plugin](https://github.com/Off-World-Live/obs-spout2-plugin) がインストールされているか
-    3. OBS側のSpout2ソースで **正しいSpout名** が指定されているか（`AvatarSystem Camera + カメラ名`）
-
 ---
 
 ## トラッキング
@@ -48,8 +33,8 @@
 ??? question "ChataigneからOSCを送っても反応しない"
 以下を確認してください。
 
-    - Chataigne側の送信ポートが `9000` になっているか
-    - ファイアウォールがUDPポート9000をブロックしていないか
+    - Chataigne側の送信ポートが `21750` になっているか
+    - ファイアウォールがUDPポート21750をブロックしていないか
     - GoodLiveClimaxが起動しているか
 
 ---
