@@ -8,7 +8,7 @@ GoodLiveClimax用のMODを作成するには、**Unity**と**MOD SDK**が必要�
 
 | 必要物             | 備考                                     |
 | ------------------ | ---------------------------------------- |
-| Unity              | 推奨バージョンはUnity6.3 Lts             |
+| Unity              | 推奨バージョンはUnity6.4.1f1             |
 | MOD SDK            | [SDKダウンロードページ](sdk.md) から入手 |
 | 作成したいアセット | 3Dモデル・テクスチャなど                 |
 
@@ -16,13 +16,20 @@ GoodLiveClimax用のMODを作成するには、**Unity**と**MOD SDK**が必要�
 
 ## セットアップ
 
-### 1. 新規Unityプロジェクトを作成する
+Unity 6.4.1f1 をインストールしている前提で説明します。
+インストールしていない場合はこちらからダウンロードしてください。
+https://unity.com/releases/editor/archive
 
-SDKを組み込むための専用Unityプロジェクトを用意します。
+![alt text](image.png)
 
-### 2. SDKをインポートする
+### 1. SDKをインポートする
 
 ReleaseページよりダウンロードしたUnityプロジェクトを、Unityで開いてください。
+Unity Hubの「追加 →「ディスクから加える」で、ダウンロードしたプロジェクトのフォルダを選択します。
+
+![alt text](image-1.png)
+
+### 2.
 
 ---
 

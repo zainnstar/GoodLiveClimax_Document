@@ -6,26 +6,16 @@ GoodLiveClimax MOD作成用のSDKは、GitHubのReleasesページから入手で
 
 ## ダウンロード
 
-<div class="grid cards" markdown>
-
 - **MOD SDK**
 
   最新版のMOD SDKはGitHubのReleasesページからダウンロードしてください。
 
-  [GitHubのReleasesページへ :octicons-arrow-right-24:](https://github.com/zainnstar/GoodLiveClimax_Document/releases/latest){ .md-button .md-button--primary }
-
-</div>
+  [GitHubのReleasesページへ](https://github.com/user-attachments/files/28100191/GoodLiveClimax_SDK260515.zip){ .md-button .md-button--primary }
 
 ---
 
 ## バージョン履歴
 
-| バージョン | 内容               |
-| ---------- | ------------------ |
-| 準備中     | 初回リリース準備中 |
-
----
-
-!!! note "Boothでも配布予定"
-GoodLiveClimax本体はBoothでの販売中
-SDKはGitHubから無償で配布します
+| バージョン | 内容         |
+| ---------- | ------------ |
+| 260515_1   | 初回リリース |
