@@ -1,13 +1,13 @@
-# VolumeLightOp
+# ボリュームライト操作
 
-VolumeLightOp 操作ノード群です。
+ボリュームライト操作 操作ノード群です。
 
 ---
 
-| 英語名                              | 日本語名                            | 説明                       |
-| ----------------------------------- | ----------------------------------- | -------------------------- |
-| VolumeLight Motion Preset Select    | VolumeLight Motion Preset Select    | モーションプリセットを選択 |
-| VolumeLight Parameter Preset Select | VolumeLight Parameter Preset Select | パラメータプリセットを選択 |
-| VolumeLightOp Group Select          | VolumeLightOp Group Select          | 操作対象グループを選択     |
-| VolumeLightOp Start                 | VolumeLightOp Start                 | VolumeLightOp を開始       |
-| VolumeLightOp Stop                  | VolumeLightOp Stop                  | VolumeLightOp を停止       |
+| 英語名                              | 日本語名                                  | 説明                         |
+| ----------------------------------- | ----------------------------------------- | ---------------------------- |
+| VolumeLight Motion Preset Select    | ボリュームライト モーションプリセット選択 | モーションプリセットを選択   |
+| VolumeLight Parameter Preset Select | ボリュームライト パラメータプリセット選択 | パラメータプリセットを選択   |
+| VolumeLightOp Group Select          | ボリュームライト グループ選択             | 操作対象グループを選択       |
+| VolumeLightOp Start                 | ボリュームライト 操作開始                 | ボリュームライトの操作を開始 |
+| VolumeLightOp Stop                  | ボリュームライト 操作停止                 | ボリュームライトの操作を停止 |
