@@ -24,8 +24,6 @@ SDKを組み込むための専用Unityプロジェクトを用意します。
 
 ReleaseページよりダウンロードしたUnityプロジェクトを、Unityで開いてください。
 
-```
-
 ---
 
 ## MODのビルド手順
@@ -57,17 +55,17 @@ Unity Editor メニュー: **Tools → MOD Exporter**
 
 生成した `.cmxmod` を以下のフォルダに配置して、GoodLiveClimaxで読み込めるか確認します。
 
-| 種類     | 配置先                    |
-| -------- | ------------------------- |
-| ワールド | `StreamingAssets/Worlds/` |
-| アイテム | `StreamingAssets/Items/`  |
-| アバター | `StreamingAssets/Avatars/` |
+| 種類         | 配置先                       |
+| ------------ | ---------------------------- |
+| ワールド     | `StreamingAssets/Worlds/`    |
+| アイテム     | `StreamingAssets/Items/`     |
+| アバター     | `StreamingAssets/Avatars/`   |
 | パーティクル | `StreamingAssets/Particles/` |
+
 ---
 
 ## 注意事項
 
 !!! warning "権利について"
 配布するMODに使用する素材（モデル・テクスチャ等）の権利を必ず確認してください。
- 無断使用は著作権侵害になります。
-```
+無断使用は著作権侵害になります。

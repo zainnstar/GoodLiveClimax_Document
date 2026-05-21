@@ -39,5 +39,3 @@
 - [時間](time.md)
 - [遅延](delay.md)
 - [関数](function.md)
-- [Expression](expression.md)
-- [Logic](logic.md)
